@@ -3,16 +3,23 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 55px;
+    height: 64px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
 
-
-    background-color: rgba(128, 128, 128, 0.387);
+    background-color: rgba(44, 43, 43, 0.387);
 }
 
 .flickrlogo {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.flickrlogo:hover {
+    cursor: pointer;
 }
 
 #dots {
@@ -35,16 +42,20 @@
 }
 
 #searchIcon {
-
     height: 10px;
     padding: 7px;
+}
 
-
+#searchIcon:hover {
+    cursor: pointer;
 }
 
 #searchbox {
-    width: 500px;
-    background-color: rgba(255, 255, 255, 0.402);
+    width: 1900px;
+    /* max-width: 1900px;
+    min-width: 500px; */
+    /* background-color: rgba(255, 255, 255, 0.402); */
+    background-color: white;
     padding: 8px;
     border: unset;
     border-radius: 2px;
@@ -55,6 +66,7 @@
     border: none;
     color: white;
     cursor: pointer;
+    font-size: 15px;
 }
 
 #login:hover {
@@ -66,13 +78,15 @@
     background-color: white;
     border: none;
     border-radius: 3px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    padding-right: 16px;
     font-weight: 500;
-    margin-right: 20px;
-
+    margin-right: 25px;
+    margin-left: 6px;
+    font-weight: 600;
+    font-size: 15px;
 }
 
 #signup:hover {
@@ -144,7 +158,15 @@
     border: unset;
     padding-left: 30px;
     padding-right: 30px;
+    transition: color ease-in;
 }
+
+#startforfree:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+
 
 .startForFreeButton {
     display: flex;
@@ -152,6 +174,8 @@
     justify-content: center;
     margin-bottom: 475px
 }
+
+
 
 #find {
     line-height: 56px;
