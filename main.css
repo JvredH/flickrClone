@@ -203,7 +203,7 @@ h3 {
 }
 
 body {
-    background-image: url(/w7d4Clone/background/1.jpeg);
+    background-image: url(/background/1.jpeg);
     background-position: center;
 }
 
@@ -211,3 +211,9 @@ body {
 /* .background {
     background-image: url(/w7d4Clone/background/1.jpeg);
 } */
+
+@media (max-width: 1500px) {
+    #searchbox {
+        width: 500px;
+    }
+}
