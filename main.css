@@ -51,7 +51,7 @@
 }
 
 #searchbox {
-    width: 1900px;
+    width: 1500px;
     /* max-width: 1900px;
     min-width: 500px; */
     /* background-color: rgba(255, 255, 255, 0.402); */
@@ -212,7 +212,7 @@ body {
     background-image: url(/w7d4Clone/background/1.jpeg);
 } */
 
-@media (max-width: 1500px) {
+@media (max-width: 1000px) {
     #searchbox {
         width: 500px;
     }
